@@ -1,7 +1,7 @@
 {
   "name": "omedia-angular-bootcamp",
   "version": "1.0.0",
-  "description": "printing area useing ts",
+  "description": "audiophile site assignement",
   "scripts": {
     "prestart": "webpack",
     "start": "node server/server.js",
