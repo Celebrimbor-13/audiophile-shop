@@ -171,27 +171,6 @@
   }
 }
 
-// @media (max-width: 715px) {
-//   .may-like {
-//     .may-like-items {
-//       flex-direction: column;
-//       div {
-//         margin: 2rem 3rem;
-//         max-width: 65rem;
-//       }
-//       div:first-child {
-//         margin-left: 3rem;
-//       }
-//       div:last-child {
-//         margin-right: 3rem;
-//       }
-//       img {
-//         max-width: 65rem;
-//       }
-//     }
-//   }
-// }
-
 @media (max-width: $screen-small) {
   .may-like {
     .may-like-items {
@@ -256,13 +235,3 @@
     }
   }
 }
-
-// @media (max-width: $screen-smallest) {
-//   .order-hse .order-div .quantity-buy {
-//     flex-direction: column-reverse;
-//     align-items: center;
-//     .plus-minus-input {
-//       margin: 1.6rem 0 0 0;
-//     }
-//   }
-// }
