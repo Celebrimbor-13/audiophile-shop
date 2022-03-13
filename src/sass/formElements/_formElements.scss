@@ -1,0 +1,123 @@
+.regular-input {
+  width: 100%;
+  height: 8.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  * {
+    font-size: 1.4rem;
+  }
+  input[type="text"] {
+    width: 100%;
+    height: 5.6rem;
+    border: 2px solid $color-Grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1.8rem 2.4rem 1.9rem 2.4rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    outline: none;
+    caret-color: $color-OrangeBrick;
+    &:focus {
+      border: 2px solid $color-OrangeBrick;
+    }
+  }
+}
+
+.regular-input-wrong {
+  width: 30.9rem;
+  height: 8.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: red;
+  position: relative;
+  * {
+    font-size: 1.4rem;
+  }
+
+  input[type="text"] {
+    width: 30.9rem;
+    height: 5.6rem;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1.8rem 16rem 1.9rem 2.4rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    outline: none;
+    caret-color: $color-OrangeBrick;
+  }
+
+  &::after {
+    content: "Wrong format";
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.radio-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5.6rem;
+  border: 2px solid $color-Grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  accent-color: $color-OrangeBrick;
+  * {
+    font-size: 1.4rem;
+  }
+
+  input[type="radio"] {
+    cursor: pointer;
+    margin: 0 1.6rem;
+    width: 2rem;
+    height: 2rem;
+    min-width: 2rem;
+  }
+  &:active {
+    border: 2px solid $color-OrangeBrick;
+  }
+  &:hover {
+    border: 2px solid $color-OrangeBrick;
+  }
+}
+
+.plus-minus-input {
+  width: 12rem;
+  height: 4.8rem;
+  background-color: $color-grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  * {
+    font-size: 1.4rem;
+  }
+  button {
+    border: none;
+    width: 40%;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: rgb(82, 82, 82);
+    &:hover {
+      color: $color-OrangeBrick;
+    }
+  }
+}

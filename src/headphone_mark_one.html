@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audiophile shop</title>
+</head>
+
+<body>
+  <div class="products" id="hamburger-product">
+    <ul>
+      <li>
+        <a href="./headphones.html">
+          <div class="imgTitleBtn">
+            <img src="./images/image-category-thumbnail-headphones.png" alt="headphones" />
+            <h2 class="H6">headphones</h2>
+            <button class="btn-arrow">SHOP</button>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./speakers.html">
+          <div class="imgTitleBtn">
+            <img src="./images/image-category-thumbnail-speakers.png" alt="speakers" />
+            <h2 class="H6">speakers</h2>
+            <button class="btn-arrow">SHOP</button>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./earphones.html">
+          <div class="imgTitleBtn">
+            <img src="./images/image-category-thumbnail-earphones.png" alt="earphones" />
+            <h2 class="H6">earphones</h2>
+            <button class="btn-arrow">SHOP</button>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="cart-wrapper">
+    <div id="cart-window">
+      <div id="cart-info">
+        <p class="subtitle">Your cart is empty</p>
+        <img src="./images/cart.svg" alt="cart" />
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <header>
+      <div id="nav-header">
+        <button id="hamburger"><img id="hamburger-icon" src="./images/icon-hamburger.svg" alt="hamburger" /></button>
+        <button class="audiophile-logo"><img src="./images/audiophile.svg" alt="audiophile-logo" /></button>
+        <ul class="navUl">
+          <li><a class="subtitle" href="./index.html">HOME</a></li>
+          <li><a class="subtitle" href="./headphones.html">HEADPHOMES</a></li>
+          <li><a class="subtitle" href="./speakers.html">SPEAKERS</a></li>
+          <li><a class="subtitle" href="./earphones.html">EARPHONES</a></li>
+        </ul>
+        <button id="cart-logo"><img src="./images/cart.svg" alt="cart-logo" /></button>
+      </div>
+    </header>
+
+    <div class="forBlur">
+      <section>
+        <div class="goback">
+          <a href="./headphones.html" class="body">Go Back</a>
+        </div>
+        <div class="order-hse">
+          <div class="tech-order-product">
+            <picture>
+              <source media="(max-width: 580px)" srcset="./images/image-category-page-preview-mark-I.jpg" />
+              <source media="(max-width: 1010px)" srcset="./images/image-product-mark-I-tablet.jpg" />
+              <img id="retrieveImg" src="./images/image-category-page-preview-mark-I.jpg" alt="mark-one" />
+            </picture>
+            <div class="order-div">
+              <h3 class="H3"><span id="retrieveName" class="H3">xx99 mk i</span> headphones</h3>
+              <p class="order-text">
+                As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio
+                reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.
+              </p>
+              <p id="retrievePrice" class="H6">$ <span class="H6" id="retrievePrice">1.750</span></p>
+              <div class="quantity-buy">
+                <div class="plus-minus-input">
+                  <button id="minus">-</button>
+                  <div id="qty">1</div>
+                  <button id="plus">+</button>
+                </div>
+                <button type="button" id="addToCart" class="btn-primary">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <h3 class="H3">features</h3>
+            <p>
+              As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of
+              audio expertise, redefining the critical listening experience. This pair of closed-back headphones are
+              made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11
+              oz.
+            </p>
+            <p>
+              From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element,
+              the components work together to deliver comfort and uncompromising sound. Its closed-back design
+              delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a
+              dedicated absorber. For connectivity, a specially tuned cable is includes with a balanced gold
+              connector.
+            </p>
+          </div>
+          <div class="inbox">
+            <h3 class="H3">in the box</h3>
+            <ul>
+              <li><span>1x</span>Headphone Unit</li>
+              <li><span>2x</span>Replacement Earcups</li>
+              <li><span>1x</span>User Manual</li>
+              <li><span>1x</span>3.5mm 5m Audio Cable</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <div class="first-item">
+            <picture>
+              <!-- <source media="(max-width: 1010px)" srcset="./images/image-product-mark-I-tablet.jpg"> -->
+              <img src="./images/image-gallery-1-mark-I.jpg" alt="itemOne" />
+            </picture>
+          </div>
+          <div class="second-item">
+            <img src="./images/image-gallery-2-mark-I.jpg" alt="itemTwo" />
+          </div>
+          <div class="third-item">
+            <img src="./images/image-gallery-3-mark-I.jpg" alt="itemThree" />
+          </div>
+        </div>
+
+        <div class="may-like">
+          <h3 class="H3">you may also like</h3>
+          <div class="may-like-items">
+            <div>
+              <picture>
+                <source media="(max-width: 580px)" srcset="./images/image-xx99-mark-two-headphones-mobile.jpg" />
+                <img src="./images/image-xx99-mark-two-headphones.jpg" alt="mark-one" />
+              </picture>
+              <h5 class="H5">xx99 mk ii</h5>
+              <a href="./headphone_mark_two.html" class="btn-primary">SEE PRODUCT</a>
+            </div>
+            <div>
+              <picture>
+                <source media="(max-width: 580px)" srcset="./images/image-xx59-headphones-mobile.jpg" />
+                <img src="./images/image-xx59-headphones.jpg" alt="xx59" />
+              </picture>
+              <h5 class="H5">xx59</h5>
+              <a href="./headphone_white_xx.html" class="btn-primary">SEE PRODUCT</a>
+            </div>
+            <div>
+              <picture>
+                <source media="(max-width: 580px)" srcset="./images/image-zx9-speaker-mobile.jpg" />
+                <img src="./images/image-zx9-speaker.jpg" alt="speaker" />
+              </picture>
+              <h5 class="H5">zx9 speaker</h5>
+              <a href="./speaker_zx9.html" class="btn-primary">SEE PRODUCT</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="products">
+          <ul>
+            <li>
+              <a href="./headphones.html">
+                <div class="imgTitleBtn">
+                  <img src="./images/image-category-thumbnail-headphones.png" alt="headphones" />
+                  <h2 class="H6">headphones</h2>
+                  <button class="btn-arrow">SHOP</button>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./speakers.html">
+                <div class="imgTitleBtn">
+                  <img src="./images/image-category-thumbnail-speakers.png" alt="speakers" />
+                  <h2 class="H6">speakers</h2>
+                  <button class="btn-arrow">SHOP</button>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./earphones.html">
+                <div class="imgTitleBtn">
+                  <img src="./images/image-category-thumbnail-earphones.png" alt="earphones" />
+                  <h2 class="H6">earphones</h2>
+                  <button class="btn-arrow">SHOP</button>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="tale" class="infade">
+          <div>
+            <h2 class="H2">bringing you the <span class="H2">best</span> audio gear</h2>
+            <p>
+              Located at the heart of New York City, Audiophile is the premier store for high end headphones,
+              earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms
+              available for you to browse and experience a wide range of our products. Stop by our store to meet some
+              of the fantastic people who make Audiophile the best place to buy your portable audio equipment.
+            </p>
+          </div>
+          <picture>
+            <source media="(max-width: 580px)" srcset="./images/image-best-gear-mobile.jpg" />
+            <source media="(max-width: 1010px)" srcset="./images/image-best-gear-tablet.jpg" />
+            <img src="./images/image-best-gear.jpg" alt="model" />
+          </picture>
+        </div>
+      </section>
+
+      <footer>
+        <div id="divForGrid">
+          <div id="nav-footer">
+            <button class="audiophile-logo"><img src="./images/audiophile.svg" alt="audiophile-logo" /></button>
+            <ul class="navUl">
+              <li><a class="subtitle" href="./index.html">HOME</a></li>
+              <li><a class="subtitle" href="./headphones.html">HEADPHOMES</a></li>
+              <li><a class="subtitle" href="./speakers.html">SPEAKERS</a></li>
+              <li><a class="subtitle" href="./earphones.html">EARPHONES</a></li>
+            </ul>
+          </div>
+
+          <p id="footer-text">
+            Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound
+            specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo
+            facility - we're open 7 days a week.
+          </p>
+          <p id="copyright">Copyright 2022. All Rights Reserved</p>
+          <div id="social-media">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+              <img src="./images/icon-twitter.svg" alt="twitter" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="./images/icon-instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
